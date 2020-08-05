@@ -1,0 +1,13 @@
+"""Given a string, create a new string with all the consecutive duplicates removed.
+Example:
+Input: AAABBBBCDDBBECE
+Output: ABCDBECE"""
+text = input()
+out = text[0]
+count = 0
+for i in range(len(text)):
+    if text[i] not in out[count:]:
+        out += text[i]
+        count += 1
+print(out)
+# 06/08/2020
