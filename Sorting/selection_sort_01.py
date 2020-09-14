@@ -1,3 +1,4 @@
+# selection sort
 def selection_sort(arr):
     for i in range(len(arr)): # first loop
         min_value = i # take i-th position as min value
