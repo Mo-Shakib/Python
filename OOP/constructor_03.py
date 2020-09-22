@@ -4,11 +4,13 @@ class Employee:
     def __init__(self,name,no):
         self.name = name # instance variable
         self.no = no # instance variable
-        print(self.name, 'Created')
-        print(self)
-    
+
+    def display(self): # instance method
+        print(self.name, self.no)
 
 emp1 = Employee('Shakib', 1) # instance 1
 emp2 = Employee('Jhon', 2)  # instance 2
-print(emp1.name)
-print(emp2.name)
+# print(emp1.name)
+# print(emp2.name)
+emp1.display()
+emp2.display()
