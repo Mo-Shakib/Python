@@ -1,5 +1,6 @@
 class Student:
-    pass
+    def __init__(self):
+        print('Student object created')
 
 
 
