@@ -12,3 +12,4 @@ print(s1.name, s1.id)
 print(s2.name, s2.id)
 s2.id = 111 #updating s2.id 
 print(s2.name, s2.id) # printng after updateing
+print('ok')
